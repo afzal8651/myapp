@@ -1,0 +1,23 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("enter the no. of coins 10");
+		int coins10=int.Parse(Console.ReadLine());
+		Console.WriteLine("enter the no. of coins 5");
+		int coins5=int.Parse(Console.ReadLine());
+		Console.WriteLine("enter the no. of coins 1");
+		int coins1=int.Parse(Console.ReadLine());
+		int result=coins10*10;
+		int result2=coins5*5;
+		int result1=coins1;
+		Console.WriteLine("total coins10 value is" + result);
+		Console.WriteLine("total coins5 value is" + result2);
+		Console.WriteLine("total coins1 value is" + result1);
+		int total=result+result2+result1;
+		Console.WriteLine("toal coins is" +total);
+		
+	}
+}
